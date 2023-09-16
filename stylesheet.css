@@ -1,6 +1,15 @@
 body {
-  font-family: Cormorant, serif; 
+  font-family: Cormorant, serif;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #CCF381 0%,
+    #CCF381 50%,
+    #4831D4 50%,
+    #4831D4 100% 
+  );
 }
+
 .upbringing p {
   font-weight: 300px; 
   font-size: 25px;
@@ -35,7 +44,7 @@ h1 {
 }
 .navbar {
   margin:32px;
-  color: #EA3D18; 
+  color: #0f0e0e; 
 }
 
 .card-container {
@@ -55,12 +64,14 @@ img {
 .about h3 {
   font-size: 30px;
   font-weight: 300px; 
+  font-size: 25px;
 }
 
 .about {
   width:40%;
   min-width: 600px;
-  margin: 40px;    
+  margin: 40px;
+   
 }
 .contact {
   margin-top: 100px; 
@@ -124,3 +135,4 @@ img {
 html {
   scroll-behavior: smooth;
 }
+
